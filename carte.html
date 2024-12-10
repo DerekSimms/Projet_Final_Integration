@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte du jeu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/carte.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="page">
+        <div id="header" class="section">
+            <div class="menus">
+                <div class="siteIcon"></div>
+                <a class="menu" href="index.html">
+                    <i class="icon fa fa-home" title="Accueil"></i>
+                    <div class="menuText">
+                        Accueil
+                    </div>
+                </a>
+                <a class="menu" href="calendrier-2024.html">
+                    <i class="icon fa fa-calendar" title="Calendrier"></i>
+                    <div class="menuText">
+                        Calendrier
+                    </div>
+                </a>
+                <a class="menu selected" href="carte.html">
+                    <i class="icon fa fa-map-marker" title="Carte du jeu"></i>
+                    <div class="menuText">
+                        Carte du jeu
+                    </div>
+                </a>
+                <a class="menu" href="brindibou.html">
+                    <i class="icon fa fa-leaf" title="Pokemon de départ Plante"></i>
+                    <div class="menuText">
+                        Brindibou
+                    </div>
+                </a>
+                <a class="menu" href="hericendre.html">
+                    <i class="icon fa fa-fire" title="Pokemon de départ Feu"></i>
+                    <div class="menuText">
+                        Héricendre
+                    </div>
+                </a>
+                <a class="menu" href="moustillon.html">
+                    <i class="icon fa fa-tint" title="Pokemon de départ Eau"></i>
+                    <div class="menuText">
+                        Moustillon
+                    </div>
+                </a>
+                <a class="menu" href="about.html">
+                    <i class="icon fa fa-question-circle-o" title="À propos"></i>
+                    <div class="menuText">
+                        À propos
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div id="mainContainer" class="section">
+            <div id="scrollPanel">
+                <div id="content">
+                    <div id="title">Carte du jeu</div>
+                    <div class="slideshow">
+                        <img class="imageSlide image" src="images/slideshow/1.jpg">
+                        <img class="imageSlide image" src="images/slideshow/2.jpg">
+                        <img class="imageSlide image" src="images/slideshow/3.jpg">
+                        <img class="imageSlide image" src="images/slideshow/4.jpg">
+                        <img class="imageSlide image" src="images/slideshow/5.jpg">
+                        <img class="imageSlide image" src="images/slideshow/6.jpg">
+                        <img class="imageSlide image" src="images/slideshow/7.jpg">
+                        <img class="imageSlide image" src="images/slideshow/1.jpg">
+                    </div>
+                    <div>
+                        <div class="subtitle">Informations générales</div>
+                        <div>
+                            <p class="paragraph">
+                                La carte du jeu est séparée en 6 sections principales. À l'exception de Rusti-Cité, 
+                                toutes les zones contiennent une grande quantité très variée de pokemons sauvage.
+                            </p>  
+                        </div>
+                        <div class="grid">
+                            <div>
+                                <div class = paragraph>
+                                    <p>
+                                        De plus, ces 5 zones contiennent aussi des pokemons "Barons", qui sont plus grands et
+                                        puissants que leur forme originale. Le statut de Baron est initialement donné 
+                                        automatiquement à certains pokemons pré-déterminés lorsque le joueur arrive dans
+                                        cette section. Un fois que le joueur a complété l'histoire principale de la zone, 
+                                        le statut a alors entre 0.2% et 2% de s'appliquer à tous les pokemons de la zone 
+                                        (le pourcentage change selon la race du pokemon). 
+                                    </p>
+                                    <p>
+                                    Pour aider les joueurs à détecter ces pokemons barons, une musique différente est joué lors de leur approche
+                                    </p>
+                                    <br>
+                                    <audio controls>
+                                        <source src="audio/Caution (Alpha Pokémon) - Pokémon Legends Arceus (Gamerip) [TubeRipper.com].mp3">
+                                    </audio>
+                                </div>
+                               
+                                <p class = paragraph>
+                                    Finalement, chaque sections possède deux pokemons mornarques, dont 
+                                    les ancêtres ont étés bénis par le dieu pokemon Arceus il y a très longtemps. 
+                                    L'histoire principale demande au joueur de se lier d'amitié avec l'un des 
+                                    pokemons monarques, puis de calmer la furie du second.
+                                </p>
+                            </div>
+                            <div>
+                                <img class="imageGroup image" src="images/pokemonBaron.png" alt="pokemonBaron.png">
+                                <div class="imageGroup">Comparaison entre un pokemon baron (gauche) et normal (droite)</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="subtitle">Rusti-Cité (Jubilife Village)</div>
+                        <div>
+                            Rusti-Cité est la seule ville à part entière dans le jeu, et sert de campement au joueur. 
+                            C'est à cet endroit que se trouve une grande partie des options du joueurs pour modifier son 
+                            équipe pokemon : Il peut les entrainers, changer les membres de l'équipe, leurs apprendre de 
+                            nouvelles attaques et monter son niveau d'exploration, ce qui lui permet de débloquer les nouvelles
+                            sections du jeu. Le village permet aussi au joueur d'apprendre de nouvelles recettes pour pouvoir 
+                            créer des pokeballs ou des objets de soins.
+                        </div>
+                    </div>
+                    <div>
+                        <div class="subtitle">Plaines Obsidiennes (Obsidian Fieldlands)</div>
+                        <div>
+                            <p class="paragraph">
+                                Les plaines obsidiennes sont la première zone accessible par le joueur qui contient réellement des pokemons 
+                                sauvages. On y rencontre le pokemon monarque Cerbyllin qui devient la première monture du jeu et permet au 
+                                joueur de sauter et de courir plus rapidement.
+                            </p>
+                            <p class="paragraph">
+                                On lui demande ensuite de calmer le pokemon monarque Hachécateur, ce qui permet ensuite de débloquer la 
+                                deuxième section du jeu si le joueur est un explorateur de niveau 2.
+                            </p>
+                        </div>
+                        <div class="subtitle">Marais Carmin (Crimson Mirelands)</div>
+                        <div>
+                            <p class="paragraph">
+                                Le Marin Carmin est la deuxième section accessible par le joueur. On doit alors y battre le pokemon nobel Ursaking,
+                                qui devient par la suite la deuxième monture du jeu et permet au joueur de détecter des objets enfouis dans le sol.
+                            </p>
+                            <p class="paragraph">
+                                Ensuite, le joueur doit calmer la furie du Fragilady monarque, qui permet à nouveau de débloquer la prochaine section, 
+                                à condition que le joueur soit de niveau 3.
+                            </p>
+                        </div>
+                        <div class="subtitle">Côte Lazuli (Cobalt Coastlands)</div>
+                        <div>
+                            <p class="paragraph">
+                                La Côte Lazuli est la troisième section accessible par le joueur. On doit y attirer le pokemon monarque Paragruel, 
+                                qui sert de troisème monture et permet de nager à la surface de l'eau.
+                            </p>
+                            <p class="paragraph">
+                                En utilisant cette capacité, le joueur peut alors se rendre au Arcanin monarque qui est à son tour en furie. 
+                                Une fois ce pokemon vaincu, le joueur peut accéder à la prochaine zone lorsqu'il atteint le niveau d'exploration 4.
+                            </p>
+                        </div>
+                        <div class="subtitle">Contrefort Couronné (Coronet Highlands)</div>
+                        <div>
+                            <p class="paragraph">
+                                Le Contrefort Courronné est la quatrième section rendue disponible au joueur. Le joueur obtient accès au pokemon 
+                                monture Farfurex en gagnant un combat contre son gardien Chammal. Sa capacité permet au joueur de grimper au mur, 
+                                et d'ainsi pouvoir plus facilement explorer les montagnes du contrefort. 
+                            </p>
+                            <p class="paragraph">
+                                On demande ensuite au joueur de calmer le pokemon monarque Electrode, ce qui lui permettra ensuite d'explorer la 
+                                cinquième et dernière section si son niveau d'exploration est de 5 ou plus.
+                            </p>
+                        </div>
+                        <div class="subtitle">Terres Immaculées (Alabaster Icelands)</div>
+                        <div>
+                            <p class="paragraph">
+                                Les terres immaculées sont la dernière section débloquable où des pokemons sauvages sont capturable. La monture 
+                                de cette section est gueriaigle, qui est obtenu après avoir traqué et vaincu sa gardienne. Il permet au joueur 
+                                de planer à haute altitude, et est généralement la monture la plus utilisée par les joueurs.
+                            </p>
+                            <p class="paragraph">
+                                Le dernier pokemon monarque en furie à affronter est Séracrawl, et le vaincre permet d'entrer dans la phase 
+                                finale du jeu, où le village tente de comprendre les origines de la furie et du joueur.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="section">
+            Carte du jeu
+        </div>
+    </div>
+    <script src="js/slideshow.js"></script>
+</body>
+
+</html>

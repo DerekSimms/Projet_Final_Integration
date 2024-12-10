@@ -1,0 +1,24 @@
+.imageSlide{
+    width: 70%;
+    margin:auto;
+    margin-top:20px;
+}
+
+.imageGroup{
+    max-width:500px;
+    margin-right:20px;
+    margin-left:20px;
+    font-style: italic;
+}
+
+@media(max-width:800px){
+    .imageSlide{
+        width:100%;
+    }
+    .grid{
+        display:block;
+    }
+    .image{
+        max-width:90%;
+    }
+}

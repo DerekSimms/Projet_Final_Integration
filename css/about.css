@@ -1,0 +1,12 @@
+.cover{
+    display: block;
+    margin:auto;
+    max-height:500px;
+}
+
+.containInfo{
+    border:3px solid black;
+    border-radius: 10px;
+    margin:20px;
+    padding :5px;
+}

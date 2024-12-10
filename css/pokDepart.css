@@ -1,0 +1,59 @@
+th{
+    width:200px;
+}
+
+.starterImageContainer{
+    margin:auto;
+    width:50%;
+    height:270px;
+}
+.starterImage{
+    max-height: 250px;
+    max-width:100%;
+    display:block;
+    margin-top:auto;
+    margin:auto;
+}
+
+.statTable{
+    margin-top:30px;
+    margin-bottom:30px;
+    width:100%;
+}
+
+.brindibou{
+    background-color: #28ad88;
+    padding-top:30px;
+}
+
+.hericendre{
+    background-color: #e89139;
+}
+
+.moustillon{
+    background-color: #57a4b1;
+}
+
+.archeduc{
+    background-color: #c02126;
+}
+
+.thyplosion{
+    background-color: #9c4da2;
+}
+
+.clamiral{
+    background-color: #0a3c77;
+}
+
+@media(max-width:910px){
+    .grid{
+        display:block;
+    }
+    .image{
+        max-width:90%;
+    }
+    .starterImageContainer{
+        width:100%;
+    }
+}
